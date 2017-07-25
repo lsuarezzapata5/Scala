@@ -17,5 +17,7 @@ object Scratchpad {
   true                                            //> res9: Boolean(true) = true
   false                                           //> res10: Boolean(false) = false
   'a'                                             //> res11: Char('a') = a
+  "a"                                             //> res12: String("a") = a
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
 }
