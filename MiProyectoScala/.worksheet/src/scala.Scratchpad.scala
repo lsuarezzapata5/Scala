@@ -16,6 +16,8 @@ object Scratchpad {;import org.scalaide.worksheet.runtime.library.WorksheetSuppo
   1.+(2).-(0);System.out.println("""res8: Int = """ + $show(res$8));$skip(7); val res$9 = 
   true;System.out.println("""res9: Boolean(true) = """ + $show(res$9));$skip(8); val res$10 = 
   false;System.out.println("""res10: Boolean(false) = """ + $show(res$10));$skip(6); val res$11 = 
-  'a';System.out.println("""res11: Char('a') = """ + $show(res$11));$skip(44); 
+  'a';System.out.println("""res11: Char('a') = """ + $show(res$11));$skip(6); val res$12 = 
+  "a";System.out.println("""res12: String("a") = """ + $show(res$12));$skip(44); 
   println("Welcome to the Scala worksheet")}
+  
 }
